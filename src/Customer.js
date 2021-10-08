@@ -5,4 +5,8 @@ class Customer {
         this.name = name;
         this.accountList = accountList;
     }
+
+    createNewAccount(accountID) {
+        this.accountList.push(accountID);
+    }
 }
