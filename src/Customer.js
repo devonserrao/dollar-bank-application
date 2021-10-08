@@ -1,9 +1,8 @@
 class Customer {
 
-    constructor(id, name, accountType, balance) {
+    constructor(id, name, accountList) {
         this.id = id;
         this.name = name;
-        this.accountType = accountType;
-        this.balance = balance;
+        this.accountList = accountList;
     }
 }
